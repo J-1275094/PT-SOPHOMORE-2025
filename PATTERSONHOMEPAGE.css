@@ -1,38 +1,71 @@
 body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #333;
-            color: white;
-            padding: 15px;
-            font-size: 24px;
-        }
-        .container {
-            padding: 20px;
-        }
-        .nav {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 20px;
-        }
-        .nav a {
-            text-decoration: none;
-            background: #007bff;
-            color: white;
-            padding: 15px 20px;
-            margin: 10px;
-            border-radius: 5px;
-        }
-        .nav a:hover {
-            background: #0056b3;
-        }
-        .content {
-            max-width: 800px;
-            margin: auto;
-            text-align: left;
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background: #0056b3;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.cell strong {
+    font-weight: bold;
+}
